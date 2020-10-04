@@ -10,7 +10,7 @@ const Home = () => {
         .then( res => res.json())
         .then( data => setCountries(data))
     }, []);
-    console.log(countries);
+    //console.log(countries);
     return (
         <div>
             
